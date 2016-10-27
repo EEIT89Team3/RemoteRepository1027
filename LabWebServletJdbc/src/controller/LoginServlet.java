@@ -19,6 +19,7 @@ import model.CustomerService;
 public class LoginServlet extends HttpServlet {
 	private CustomerService service;
 	@Override
+	
 	public void init() throws ServletException {
 		service = new CustomerService();
 	}
