@@ -16,7 +16,7 @@ ProductDAOJdbc dao2 = new ProductDAOJdbc();
 List<ProductBean> beans = dao2.select();
 %>
 <h1><%=beans%></h1>
-11111
+
 <%
 CustomerDAOJdbc dao1 = new CustomerDAOJdbc();
 CustomerBean bean = dao1.select("Alex");
